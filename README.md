@@ -56,7 +56,7 @@ expected result:
 case 3: StreamServer with \<filestoragepath> entered  
 expected result: 
 -users.dat created in the path specified with existing users printed  
--For the sake of time, if <filestoragepath> is specified then <servername> must be specified too   
+-For the sake of time, if \<filestoragepath> is specified then \<servername> must be specified too   
 TODO: implement command processing routine  
 
 example:  
