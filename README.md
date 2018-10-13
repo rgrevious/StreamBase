@@ -59,7 +59,7 @@ expected result: Invalid!
 TODO: implement command processing routine  
 
 example:  
-StreamServer "database\users.dat"
+StreamServer ryanserver database\users.dat
 
 
 ### StreamClient:
