@@ -51,7 +51,7 @@ expected result:
 case 2: StreamServer with \<servername> entered  
 expected result:  
 -users.dat created in the current directory with no test accounts(unless they were already created from the previous run)  
--\\.\pipe\\<servername> created as the default pipe name  
+-\\.\pipe\servername created as the default pipe name  
 
 case 3: StreamServer with \<filestoragepath> entered  
 expected result: Invalid!  
