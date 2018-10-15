@@ -86,14 +86,14 @@ Connects to "testserver" and tries to log in with ryan.grevious@gmail.com
 ### Build Instructions:
 
 Option 1: CMake  
--run cmake from the build directory that points to StreamBase/src
-eg. cd StreamBase\build\cache\Windows\cmake  
-    cmake -G "Visual Studio 15 2017" ..\..\..\..\src  
+-run cmake from the build directory that points to StreamBase/src  
+eg. cd StreamBase\build\cache\Windows\cmake    
+    cmake -G "Visual Studio 15 2017" ..\\..\\..\\..\\src    
 The solution file will include 3 projects(StreamBase,StreamClient,StreamServer)  
 
-Option 2: Visual Studio Solution
-The solution file has already been generated at StreamBase/build/cache/Windows/ 
--Load the StreamBase Solution from /StreamBase/build/cache/Windows/  
+Option 2: Pregenerated Visual Studio Solution  
+The solution file has already been generated at StreamBase/build/cache/Windows/   
+-Load the StreamBase Solution from /StreamBase/build/cache/Windows/    
 -Set Visual Studio configuration to x86. x64 is not setup yet.  
 -Both applications depend on StreamBase.lib  
 -Build the solution. If successful, binaries will be built to /StreamBase/build/output/Windows/Win32    
